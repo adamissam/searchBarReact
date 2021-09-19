@@ -1,0 +1,1 @@
+export const SAVE_GIT_RESULT = "SAVE_GIT_RESULT";

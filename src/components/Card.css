@@ -1,0 +1,40 @@
+.containerCard{
+ display: flex;
+    border:1px solid gray;
+    flex-direction: row;
+    padding: 5px;
+    min-width: 170px;
+    width: 10%;
+   border-radius: 5px;
+   margin: 5px;
+   
+} 
+.containerCard:hover {
+    background-color: rgb(245, 245, 245);
+  }
+/* .containerImage{
+    height: 30px;
+    width: 30px;
+} */
+.image{
+    height: 60px;
+    width: 60px;
+}
+.containerInformation{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.name{
+
+    color: blue;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}

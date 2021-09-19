@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px 0px 3px 5px;
+     /* border: dashed red; */
+     justify-content: center;
+     align-items: center;
+     min-width: 100%;
+     text-align: center;
+}
+.containerPagination{
+    /* border: dashed red; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.containerResult{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px 0px 3px 5px;
+     /* border: dashed red; */
+     justify-content: center;
+     align-items: center;
+     min-width: 100%;
+     text-align: center;
+
+}
