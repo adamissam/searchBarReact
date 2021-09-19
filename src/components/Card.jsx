@@ -12,7 +12,7 @@ export default function Card(props) {
             <div className="containerImage">
             <Image src={imageProfile?imageProfile:defaultImage} roundedCircle className="image"/>
             </div>
-            <div className={"containerInformation"}>
+            <div className="containerInformation">
                <h6 className="name">{name?name:"Aucun"}</h6>
                <p>{""}</p> 
                 </div>
